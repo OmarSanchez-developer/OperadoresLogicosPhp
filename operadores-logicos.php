@@ -1,7 +1,6 @@
 <?php
- $valorA = true;
- $valorB = false;
+ $valorA = false;
 
- $resultado = $valorA and $valorB;
+ $resultado = !valorA;
  var_dump($resultado);
 ?>
